@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    background-color: #DFDFDF;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.header-text {
+    text-align: center;
+}
+
+.workdivs {
+    display: inline-block;
+    width: 700px;
+    height: 750px;
+    text-align: center;
+    margin-right: 5%;
+    border: 2px solid #4CAF50;
+    border-radius: 8px;
+    overflow: auto;    
+}
+
+.workdivs-add {
+    display: inline-block;
+    width: 700px;
+    height: 500px;
+    text-align: center;
+    margin-right: 5%;
+    border: 2px solid #4CAF50;
+    border-radius: 8px;
+    overflow: auto;
+}
+
+.workdivs-left {
+    margin-top: 15%;
+    text-align: center;
+}
+.workdivs-center {
+    margin-top: 15%;
+}
+.workdivs-right {
+    margin-top: 15%;
+}
+
+.items {
+    width: 90%;
+    height: 20%;
+    background-color: $div-color;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-left: 5%;
+    margin-top: 5;
+}
+
+.items-title {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.items-desc {
+    font-size: 1em;
+}
+
+input[type=text], select {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: none;
+}
+
+input[type=submit] {
+    width: 90%;
+    background-color: #4CAF50;
+    color: $div-color;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button {
+    width: 40%;
+    color: $div-color;
+    background-color: #AE3536;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 50%;
+}
